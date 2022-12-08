@@ -46,8 +46,8 @@ class TestShapeMethods(unittest.TestCase):
         self.assertEqual(G.S(),i)
 
     def test_tri(self,name="zero"):
-        G = Okruzhnost(name,side4=9)
-        i=pi*9**2
+        G = Okruzhnost(name,side4=8)
+        i=pi*8**2
         self.assertTrue(G.So()==i)
         self.assertEqual(G.So(),i)
 
